@@ -1,0 +1,29 @@
+﻿<AML>
+ <Item type="Method" id="AAD11A15D64648FEB5AA440AE4AD5388" action="add">
+  <comments>Client-side method to call a datepicker dialog</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[// Prompt the user for the baseline date
+var dateFormat = "yyyy-MM-dd HH:mm:ss";
+var baseDate = new Date().format(dateFormat);
+
+params = {
+    aras: top.aras,
+    format: dateFormat,
+    type: "Date",
+    date: baseDate
+};
+
+// call the date dialog with defined params
+return aras.getMainWindow().main.ArasModules.Dialog.show("iframe", params).promise.then(function(res) {
+    // do something with the date on the dialog's callback
+    return doSomethingWithTheDate(res);
+});
+
+// write a function to do some logic with the date
+function doSomethingWithTheDate(dt) {
+    alert(dt);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>labs_CallDateDialog</name>
+ </Item>
+</AML>
