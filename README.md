@@ -54,6 +54,8 @@ You are now ready to login to Aras and try out the Call Date Dialog action.
 
 The dialog will be dismissed and a browser alert dialog will appear, displaying the selected date value.
 
+![Date Dialog Demo](./Screenshots/demo.gif)
+
 ## Contributing
 
 1. Fork it!
