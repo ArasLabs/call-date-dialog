@@ -27,10 +27,10 @@ The project's import package contains a Javascript method - labs_CallDateDialog.
 ### Pre-requisites
 
 1. Aras Innovator installed (version 11.0 SPx preferred)
-2. Aras Package Import tool
-3. CallDateDialog import package
+2. Aras Package Import tool.
+3. CallDateDialog import package.
 
-### Install Steps
+### Installation Steps
 
 1. Backup your database and store the BAK file in a safe place.
 2. Open up the Aras Package Import tool.
@@ -62,7 +62,7 @@ The dialog will be dismissed and a browser alert dialog will appear, displaying 
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request
+5. Submit a pull request.
 
 For more information on contributing to this project, another Aras Labs project, or any Aras Community project, shoot us an email at araslabs@aras.com.
 
