@@ -72,7 +72,7 @@ For more information on contributing to this project, another Aras Labs project,
 
 ## Credits
 
-Original method code written by Rob McAveney for Aras Labs. @rmcaveney
+Original method code was written by Rob McAveney for Aras Labs. @rmcaveney
 
 Documented and published by Eli Donahue for Aras Labs. @EliJDonahue
 
