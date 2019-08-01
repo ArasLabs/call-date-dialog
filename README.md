@@ -4,19 +4,19 @@ This project contains sample code that demonstrates how to call a datepicker dia
 
 ## Project Details
 
-See [TESTSTATUS file](./TESTSTATUS.md) for latest testing information.
+#### History:
 
-#### Built Using:
+Release | Notes
+--------|--------
+[v1.0.1](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.1) | Tested 11.0 SP12, SP15. Tested on Edge, Firefox 60 ESR, Chrome.
+[v1.0.0](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.0) | First release. Tested on Internet Explorer 11, Firefox 38 ESR, Chrome.
 
-Aras 11.0 SP7
+#### Supported Aras Versions:
 
-#### Versions Tested:
-
-Aras 11.0 SP7
-
-#### Browsers Tested:
-
-Internet Explorer 11, Firefox 38 ESR, Chrome
+Project | Aras
+--------|------
+[v1.0.1](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.1) | 11.0 SP7+, 11.0 SP12+, 11.0 SP15
+[v1.0.0](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.0) | 11.0 SP7
 
 ## How It Works
 
