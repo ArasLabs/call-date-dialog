@@ -8,6 +8,7 @@ This project contains sample code that demonstrates how to call a datepicker dia
 
 Release | Notes
 --------|--------
+[v1.0.2](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.2) | Updated Usage for v12 
 [v1.0.1](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.1) | Tested 11.0 SP12, SP15. Tested on Edge, Firefox 60 ESR, Chrome.
 [v1.0.0](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.0) | First release. Tested on Internet Explorer 11, Firefox 38 ESR, Chrome.
 
@@ -15,6 +16,7 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v1.0.2](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.2) | 11.0+, 12.0+ 
 [v1.0.1](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.1) | 11.0 SP7+, 11.0 SP12+, 11.0 SP15
 [v1.0.0](https://github.com/ArasLabs/call-date-dialog/releases/tag/v1.0.0) | 11.0 SP7
 
@@ -30,7 +32,7 @@ The project's import package contains a Javascript method - labs_CallDateDialog.
 
 ### Pre-requisites
 
-1. Aras Innovator installed (version 11.0 SPx preferred)
+1. Aras Innovator installed (current released version preferred)
 2. Aras Package Import tool
 3. CallDateDialog import package
 
@@ -53,12 +55,13 @@ You are now ready to login to Aras and try out the Call Date Dialog action.
 ## Usage
 
 1. Log in to Aras as admin.
-2. In the main menu, select **Actions > Call Date Dialog**.
+2. From the User menu (upper right corner), select **Actions > Call Date Dialog**.
+   - In v11, use the **Actions** menu to choose the **Call Date Dialog** Action.
 3. When the datepicker dialog appears, choose a date.
 
 The dialog will be dismissed and a browser alert dialog will appear, displaying the selected date value.
 
-![Date Dialog Demo](./Screenshots/demo.gif)
+![Date Dialog Steps](./Screenshots/v12-action_steps.png)
 
 ## Contributing
 
