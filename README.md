@@ -32,7 +32,7 @@ The project's import package contains a Javascript method - labs_CallDateDialog.
 
 ### Pre-requisites
 
-1. Aras Innovator installed (current released version preferred)
+1. Aras Innovator installed (see "Supported Aras Versions" above)
 2. Aras Package Import tool
 3. CallDateDialog import package
 
